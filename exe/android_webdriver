@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'android_webdriver/cli'
+
+AndroidWebDriver::CLI.start
