@@ -1,8 +1,21 @@
 # Not yet been published in the rubygems.
 
+Sorry.
 Please to build manually.
 
+```
+$ gem build android_webdriver.gemspec
+```
+
+Add this line to your application's Gemfile:
+
+```
+gem '/path/to/android_webdriver-x.x.x.gem'
+```
+
 # AndroidWebDriver
+
+![Parallel](./parallel_5.gif)
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/android_webdriver`. To experiment with that code, run `bin/console` for an interactive prompt.
 
